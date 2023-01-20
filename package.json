@@ -1,0 +1,28 @@
+{
+  "name": "cronos-note",
+  "version": "1.0.0",
+  "description": "Google Chrome extension for manage tasks, bookmark and take notes",
+  "main": "main.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "type": "module",
+  "scripts": {
+    "css-dev": "npx tailwindcss -i ./src/tailwind.css -o ./src/assets/dev.css --watch",
+    "css-prod": "npx tailwindcss -i ./src/tailwind.css -o ./src/assets/index.css --minify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viriatonova/cronos-note.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/viriatonova/cronos-note/issues"
+  },
+  "homepage": "https://github.com/viriatonova/cronos-note#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}

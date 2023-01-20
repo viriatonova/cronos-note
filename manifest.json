@@ -1,0 +1,23 @@
+{
+    "manifest_version": 3,
+    "name": "Cronos Note",
+    "version": "0.1.0",
+    "description": "Manage bookmarks, tasks and take notes in google chrome",
+    "permissions": [
+        "storage",
+        "tabs",
+        "bookmarks",
+        "windows"
+    ],
+    "host_permissions": [],
+    "background": {},
+    "action": {
+        "default_icon": {
+            "16": "src/assets/icons/ideia.png",
+            "24": "src/assets/icons/ideia.png",
+            "32": "src/assets/icons/ideia.png"
+        },
+        "default_title": "Cronos Note",
+        "default_popup": "src/popup.html"
+    }
+}
